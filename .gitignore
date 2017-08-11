@@ -29,6 +29,49 @@ project.xcworkspace
 .gradle
 local.properties
 
+# Windows/Visual Studio
+#
+*AppPackages*
+*BundleArtifacts*
+*ReactAssets*
+
+*.[Oo]bj
+*.user
+*.aps
+*.pch
+*.vspscc
+*.vssscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.tlog
+*.bak
+*.[Cc]ache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.sdf
+*.opensdf
+*.opendb
+*.unsuccessfulbuild
+*.lastbuildstate
+ipch/
+[Oo]bj/
+[Bb]in
+[Dd]ebug*/
+[Rr]elease*/
+*.tlog/
+Ankh.NoLoad
+UpgradeLog.htm
+
+*.DotSettings
+.vs/
+*project.lock.json
+
 # node.js
 #
 node_modules/
@@ -42,3 +85,5 @@ buck-out/
 \.buckd/
 android/app/libs
 android/keystores/debug.keystore
+
+

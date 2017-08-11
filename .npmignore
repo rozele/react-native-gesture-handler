@@ -1,2 +1,7 @@
 Example/
 AndroidNativeExample/
+windows/.vs
+windows/ReactNativeGestureHandler/.vs
+windows/ReactNativeGestureHandler/bin
+windows/ReactNativeGestureHandler/obj
+windows/ReactNativeGestureHandler/project.lock.json

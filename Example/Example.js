@@ -133,6 +133,7 @@ class DraggableBox extends Component {
               ],
             },
           ]}
+          manipulationModes={['translateX', 'translateY']}
         />
       </PanGestureHandler>
     );
@@ -294,8 +295,9 @@ class PinchableBox extends React.Component {
                     ],
                   },
                 ]}
+                manipulationModes={['scale']}
                 source={{
-                  uri: 'https://avatars1.githubusercontent.com/u/6952717',
+                  uri: 'http://avatars1.githubusercontent.com/u/6952717',
                 }}
               />
             </PinchGestureHandler>
@@ -393,6 +395,7 @@ class Swipeable extends Component {
               backgroundColor: 'white',
               transform: [{ translateX: this._transX }],
             }}
+            manipulationModes={['translateX']}
             onLayout={this._onLayout}>
             {children}
           </Animated.View>

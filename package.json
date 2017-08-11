@@ -15,6 +15,7 @@
     "android/lib/build.gradle",
     "android/lib/src/main/java/",
     "ios/",
+    "windows/",
     "README.md",
     "GestureHandler.js"
   ],
